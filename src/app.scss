@@ -1,0 +1,46 @@
+* {
+  font-size: 18px;
+  color: #707070;
+  font-family: 'Open Sans',sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #707070;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+*{
+  font-size: 18px;
+  color: #707070;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: #707070;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .header {
+    #header__menu{
+      .header__list {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .kapat {
+          display: block;
+        }
+
+      }
+    }
+  }
+}
